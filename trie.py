@@ -84,9 +84,3 @@ def find_all_words(board: list[list[str]], existing_words: list[str]) -> list[st
 
     # Return resulting list.
     return list(set(found_words))
-
-
-if __name__ == "__main__":
-    data = find_all_words([['a', 'b'], ['a', 'a'], ['a', 'a']], ['a', 'baaa'])
-    print(data)
-    print(len(data))
